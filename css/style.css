@@ -78,14 +78,14 @@ ul {
   content: "";
   position: absolute;
   width: 0;
-  height: 50%;
+  height: 500px;
   background: rgba(74, 62, 70, 0.2);
   transition: all 1.7s ease;
   opacity: 0;
 }
 
 .introducao:hover::before {
-  width: 71%;
+  width: 1200px;
   opacity: 1;
 }
 
@@ -339,6 +339,10 @@ footer li {
 }
 
 @media (max-width: 1000px) {
+
+  .introducao::before{
+    display: none;
+  }
 
   .footer-container {
     padding: 40px 20px;
